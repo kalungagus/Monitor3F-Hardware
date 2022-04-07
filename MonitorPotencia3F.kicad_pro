@@ -495,6 +495,18 @@
     [
       "071522c0-d0ed-49b9-906e-6295f67fb0dc",
       ""
+    ],
+    [
+      "93340c38-8bfd-447a-bf60-be3c6dc860d9",
+      "MedicaoCorrente"
+    ],
+    [
+      "1418463a-4889-46ec-a4c0-cb865c532c6c",
+      "MedicaoTensao"
+    ],
+    [
+      "0fd56df2-b828-4ab9-b5a9-d7782f3e0762",
+      "CircuitoDigital"
     ]
   ],
   "text_variables": {}
