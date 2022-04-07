@@ -1,2 +1,3 @@
 # Monitor3F-Hardware
-Projeto de hardware de monitoramento de energia trifásica
+O projeto atual está destinado ao monitoramento de potência trifásica de uma máquina. Ele foi desenvolvido para levantar as curvas de potência de tornos e fresadoras. Para isto, emprega-se divisores de tensão que estarão ligados a cada fase da máquina através de transformadores. Depois há um divisor de tensão para reduzir a tensão para níveis aceitos por um ESP32 e finalmente adiciona-se uma componente DC de 3.5V e isola-se esta tensão resultante do ESP32 através de um buffer.
+O mesmo acontece com o monitoramento de corrente, que é feito através de um transformador de corrente ligado a um resistor. O sinal de corrente também é adicionado a uma componente DC de 3.5V e isolado do ESP32 por um buffer.
