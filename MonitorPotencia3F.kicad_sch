@@ -88,6 +88,11 @@
     (uuid d7c1500b-a3c1-4dd0-95bd-3236466642b6)
   )
 
+  (text "BLOCOS DO PROJETO" (at 85.09 39.37 0)
+    (effects (font (size 8 8) (thickness 1.6) bold) (justify left bottom))
+    (uuid 64f0ea91-fa50-4aa1-92b3-87d2dbe5056a)
+  )
+
   (sheet (at 93.98 96.52) (size 26.67 22.86) (fields_autoplaced)
     (stroke (width 0.1524) (type solid) (color 255 0 0 1))
     (fill (color 0 255 0 1.0000))
@@ -237,11 +242,29 @@
     (path "/0fd56df2-b828-4ab9-b5a9-d7782f3e0762/30fe83af-b89d-4d61-b765-f24eb984dae2"
       (reference "#PWR019") (unit 1) (value "GND") (footprint "")
     )
+    (path "/1418463a-4889-46ec-a4c0-cb865c532c6c/9b5bd37c-524b-4116-83e7-da55a5bde93e"
+      (reference "#PWR020") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/1418463a-4889-46ec-a4c0-cb865c532c6c/2d8909e6-b573-41e7-96c6-2cf61ea0a08b"
+      (reference "#PWR021") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/1418463a-4889-46ec-a4c0-cb865c532c6c/4df2cb7c-5a01-4651-b4f3-e48445a80da6"
+      (reference "#PWR022") (unit 1) (value "GND") (footprint "")
+    )
     (path "/0fd56df2-b828-4ab9-b5a9-d7782f3e0762/7fc1edd1-3027-4691-872c-de9ccb441181"
-      (reference "#PWR?") (unit 1) (value "+3.3V") (footprint "")
+      (reference "#PWR023") (unit 1) (value "+3.3V") (footprint "")
     )
     (path "/0fd56df2-b828-4ab9-b5a9-d7782f3e0762/cd4e2187-9a56-4be6-8ba6-fe72381b453c"
-      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+      (reference "#PWR024") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/93340c38-8bfd-447a-bf60-be3c6dc860d9/72394d4a-0f52-4277-bc9a-622c82eea96f"
+      (reference "#PWR025") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/93340c38-8bfd-447a-bf60-be3c6dc860d9/ad73368f-624d-4e30-b7ab-e4add3ccd24c"
+      (reference "#PWR026") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/93340c38-8bfd-447a-bf60-be3c6dc860d9/5a76d035-f48c-4447-b365-8c77039e0390"
+      (reference "#PWR027") (unit 1) (value "GND") (footprint "")
     )
     (path "/93340c38-8bfd-447a-bf60-be3c6dc860d9/b57488f4-373a-4e8c-a509-bd6f3b44b399"
       (reference "C1") (unit 1) (value "100nF") (footprint "Capacitor_THT:C_Rect_L7.0mm_W2.0mm_P5.00mm")
@@ -269,6 +292,24 @@
     )
     (path "/0fd56df2-b828-4ab9-b5a9-d7782f3e0762/d367019c-f941-40f0-8585-fb1793547f11"
       (reference "D1") (unit 1) (value "1N4007") (footprint "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal")
+    )
+    (path "/1418463a-4889-46ec-a4c0-cb865c532c6c/e6a1a139-219b-49eb-94b4-9e1f23014712"
+      (reference "D2") (unit 1) (value "1N4728A") (footprint "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal")
+    )
+    (path "/1418463a-4889-46ec-a4c0-cb865c532c6c/17abb941-9b93-489c-8535-d503df97c109"
+      (reference "D3") (unit 1) (value "1N4728A") (footprint "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal")
+    )
+    (path "/1418463a-4889-46ec-a4c0-cb865c532c6c/7de3092c-e71e-439a-8a91-3360afd00de6"
+      (reference "D4") (unit 1) (value "1N4728A") (footprint "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal")
+    )
+    (path "/93340c38-8bfd-447a-bf60-be3c6dc860d9/5b230479-1b8b-4509-8f66-e21f89466816"
+      (reference "D5") (unit 1) (value "1N4728A") (footprint "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal")
+    )
+    (path "/93340c38-8bfd-447a-bf60-be3c6dc860d9/3f735eff-1e2f-4130-88b7-646cb7bcb199"
+      (reference "D6") (unit 1) (value "1N4728A") (footprint "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal")
+    )
+    (path "/93340c38-8bfd-447a-bf60-be3c6dc860d9/511325e4-8c68-49eb-913c-32b0583fba6c"
+      (reference "D7") (unit 1) (value "1N4728A") (footprint "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal")
     )
     (path "/93340c38-8bfd-447a-bf60-be3c6dc860d9/e6172b77-d4be-4920-b4d0-361b1247b45e"
       (reference "J1") (unit 1) (value "Conn_01x02") (footprint "TerminalBlock:TerminalBlock_bornier-2_P5.08mm")
